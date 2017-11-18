@@ -13,10 +13,10 @@ namespace DiagnoseApp
             TargetSynonymsVisibleDataAccess tsda = new TargetSynonymsVisibleDataAccess();
             IEnumerable<TargetSynonymsVisible> tsvIE = tsda.GetTargetSynonymsVisible();
             
-
+            //test2
             //BindingContext = this;
             //Items = ToObString(tsvIE);
-
+            ob = ToObString(tsvIE);
             ob = ToObString(tsvIE);
             this.BindingContext = ob;
             
